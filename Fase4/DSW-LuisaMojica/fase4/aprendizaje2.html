@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 4-Luisa Mojica</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="img\banner_unad.png" alt="Logo Unad" width="100%" height="200px">
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="tema1.html">Tema 1</a></li>
+                            <li><a class="dropdown-item" href="tema2.html">Tema 2</a></li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="recurso1.html">Recurso 1</a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="aprendizaje1.html">Aprendizaje 1</a></li>
+                            <li><a class="dropdown-item" href="aprendizaje2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="contenedor">
+        <div class="row">
+            <!-- a este contenedor div se le creo una clase -->
+            <section class="col-9">
+                <article>
+                    <h2>Responsivos con Media Queries</h2>
+                    <p align="left">
+                        La sintaxis de las media queries consisten de un media type y una o mas expresiones, implicando
+                        características del medio, la cual se resuelve como verdadera o falsa. El resultado de la
+                        consulta es verdadera si el tipo de medio especificado en el media query concuerda con el tipo
+                        de dispositivo que está siendo mostrado y todas las expresiones en el media query son
+                        verdaderas.
+                    </p>
+                    <img src="img/mq1.PNG" alt="sintasix">
+                    <p>Podemos agregar un punto de interrupción donde ciertas partes del diseño se comportarán de manera
+                        diferente en cada lado del punto de interrupción.</p>
+                    <img src="img/eje1mq.PNG" alt="imagen sintaxis">
+                    <p>Ejemplo:
+                        Cuando la pantalla (ventana del navegador) es más pequeña que 768px, cada columna debe tener un
+                        ancho del 100%:</p>
+                    <img src="img/eje2mq.PNG" alt="sintasix">
+                    <h3>Orientación: retrato / paisaje</h3>
+                    <p>Las consultas de medios también se pueden utilizar para cambiar el diseño de una página según la
+                        orientación del navegador.</p>
+                    <img src="img/eje3mq.PNG" alt="sintasix">
+                    <h3>Tamaño de fuente variable</h3>
+                    <p>Ejemplo:</p>
+                    <img src="img/eje4mq.PNG" alt="sintasix">
+                    <h2>medidas para mejorar el SEO</h2>
+                    <h3>Analizar la competencia</h3>
+                    <p>Observar las distintas acciones o prácticas de los principales competidores de la empresa ayudará
+                        a determinar si la estrategia SEO es la correcta y si los robots de los motores de búsqueda
+                        están rastreando correctamente la página web de la compañía para posicionarla.</p>
+                    <h3>Buscar las keywords o palabras claves</h3>
+                    <p>
+                        Seleccionar las palabras claves en torno a las cuales se desea posicionar al negocio es esencial
+                        para las estrategias de comunicación y marketing. Analizar cuáles son las palabras clave más
+                        buscadas por el cliente objetivo dentro del sector es un factor determinante para un buen
+                        posicionamiento en buscadores. Gracias a herramientas como Google Analytics se pueden descubrir
+                        las keywords más utilizadas por la competencia o las palabras clave más empleadas por los
+                        agentes del sector.
+                    </p>
+                    <h3>Trabajar las URL</h3>
+                    <p>
+                        De cara a mejorar la estrategia SEO, también hay que prestar atención a las URLs que conforman
+                        la página web. Estas deben ser cortas, aportar la información relevante y contener palabras
+                        clave del contenido al que acompañan. Además, es aconsejable evitar artículos, preposiciones,
+                        acentos o la letra ñ.
+                    </p>
+                    <h3>Revisar los enlaces rotos</h3>
+                    <p>Los enlaces rotos son perjudiciales para el posicionamiento SEO, ya que son penalizados por los
+                        robots de Google. Por ello, es necesario revisar los enlaces de la página en busca de posibles
+                        errores 404, páginas no seguras o con poca fiabilidad.</p>
+                    <h3>Evitar contenido duplicado</h3>
+                    <p>El contenido copiado o duplicado es motivo de penalización para los principales motores de
+                        búsqueda y, por lo tanto, no quedará indexado. Es importante que todo el contenido publicado sea
+                        original y exclusivo, puesto que los robots de Google pueden detectar fácilmente cuando dos
+                        páginas web tienen el mimo contenido.</p>
+                </article>
+            </section>
+            <aside class="col-3">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCcavUnadFacatativa&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+        </div>
+        <footer>
+            <p>
+                Email: lfmojicat@gmail.com <br> Skype: luisit-motik0295@hotmail.com <br>Fecha de actualización: Abril
+                2021
+            </p>
+</body>
+
+</html>
