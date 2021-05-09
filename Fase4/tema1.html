@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 4-Luisa Mojica</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="img\banner_unad.png" alt="Logo Unad">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="submenu">
+                    <li><a href="tema1.html">Tema 1: Etiquetas semánticas</a></li>
+                    <li><a href="tema2.html">Tema 2: Listas y Enlaces</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Digitales</a>
+                <ul class="submenu">
+                    <li><a href="recurso1.html">Recurso #1</a></li>
+                    <li><a href="recurso2.html">Recurso #2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul class="submenu">
+                    <li><a href="aprendizaje1.html">Aprendizaje #1</a></li>
+                    <li><a href="aprendizaje2.html">Aprendizaje #2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+    <div class="contenedor">
+        <!-- a este contenedor div se le creo una clase -->
+        <section>
+            <article>
+                <h1>ETIQUETAS SEMÁNTICAS</h1>
+                <p>
+                    Perteneciente o relativo a la significación de las palabras. Esa es la definición de la Real
+                    Academia de la
+                    Lengua Española y es así de sencillo es entender este tipo de etiquetas del lenguaje HTML:
+                    Aquellas que dan un significado a las partes del documento.Por decirlo de otra forma, estamos ante etiquetas que
+                    indican qué es el contenido que contienen, en lugar de como se debe formatear al mostrar el documento
+                    HTML en un cliente web.  Son etiquetas que componen la web semántica, es decir, que no proponen nuevas
+                    funcionalidades, pero sirven para estructurar sitios web, y añadir un significado concreto, más
+                    allá de las etiquetas generales como div.
+                </p>
+                <h4>Etiqueta header</h4>
+                <p> La etiqueta header se usa para marcar un grupo de elementos de introducción o de navegación dentro
+                    de una sección o documento. Normalmente se usa para incluir los encabezados (h1–h6 o hgroup) pero no
+                    es obligatorio. También puede contener otras cosas como el índice de una sección, un formulario de
+                    búsqueda, logos relevantes, etc. 
+                    El uso de la etiqueta header no está restringido a una por documento, sino que se puede usar una por
+                    cada sección del mismo, de esta forma:
+                </p>
+                <center><img src="img/header1.png" width="40%" height="40%" alt="Estructura header"></center>
+                <h4>Etiqueta hgroup</h4>
+                <p>La etiqueta hgroup se usa para agrupar un conjunto de uno o más elementos de encabezado (h1 – h6). El
+                    uso más típico de esta etiqueta es para agrupar el título de la página con su eslogan.
+                </p>
+                <center><img src="img/hgroup.png" width="40%" height="40%" alt="Estructura hgroup"></center>
+                <p>
+                <h4>Etiqueta nav</h4>
+                <p>Se usa para marcar una sección del documento cuya función es la navegación por la página web. Esta
+                    etiqueta no debe ser usada para marcar todos los grupos de enlaces, únicamente los bloques principales
+                    de navegación por la página Por ejemplo, los típicos enlaces que hay en el pie de página no se deben
+                    marcar con nav.
+                </p>
+                <center><img src="img/nav.png" width="40%" height="40%" alt="Estructura nav"></center>
+                </p>
+                <p>
+                <h4>Etiqueta article</h4>
+                <p>
+                    Se usa para marcar contenido independiente que tendría sentido fuera del contexto de la página
+                    actual y que podría sindicarse, por ejemplo: una noticia, un artículo en un blog o un comentario.
+                    Normalmente un article tendrá, además de su propio contenido, también una cabecera (a menudo con header) y
+                    posiblemente un pie (footer).
+                </p>
+                <center><img src="img/article.png" width="60%" height="60%" alt="Estructura Article"></center>
+                </p>
+                <p>
+                <h4>Etiqueta section</h4>
+                <p>
+                    Se usa para marcar una sección genérica de un documento o aplicación. Una sección, en este contexto,
+                    es una
+                    agrupación temática del contenido, típicamente con un encabezado. Ejemplos de uso de section
+                    podrían ser: capítulos, las pestañas en un menú tabulado o, en la página principal de un sitio web, la
+                    introducción, lista de noticias e información de contacto. Sólo se debería usar section para contenido
+                    independiente al que se podría poner un encabezado y que no sea susceptible de ir marcado con article, aside o
+                    nav.
+                    Se debe usar article cuando el contenido sea susceptible de ser sindicado (por ejemplo, en unas
+                    RSS). Un ejemplo de uso de las dos etiquetas podría ser en la página principal de una web con un listado
+                    de noticias, de esta forma:
+                </p>
+                <center><img src="img/section.png" width="40%" height="40%" alt="Estructura Section"></center>
+                </p>
+                <p>
+                <h4>Etiqueta aside</h4>
+                <p>
+                    Se usa para marcar un trozo de contenido que está relacionado con el contenido de la página web,
+                    pero que no es parte del mismo. Ejemplos de uso serían: glosario de términos, grupos de enlaces a páginas
+                    relacionadas, barras laterales, etc.
+                </p>
+                <center><img src="img/aside.PNG" width="60%" height="60%" alt="Estructura aside"></center>
+                </p>
+                <p>
+                <h4>Etiqueta footer</h4>
+                <p>
+                    Se usa para marcar el pie de una sección o documento y que contiene información sobre el mismo como
+                    el autor, licencia, términos de uso.
+                </p>
+                <center><img src="img/footer.PNG" width="60%" height="60%" alt="Estructura footer"></center>
+                </p>
+                <p>
+            </article>
+        </section>
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCcavUnadFacatativa&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        <p>
+            Email: lfmojicat@gmail.com <br> Skype: luisit-motik0295@hotmail.com <br>Fecha de actualización: Abril 2021
+        </p>
+</body>
+
+</html>
